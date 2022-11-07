@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Berkas</title>
+</head>
+<body>
+
+<form action="upload.php" method="post"
+  enctype="multipart/form-data">
+  <input type="hidden" name="max_file_size"
+         value="1024">
+  Nama Berkas: 
+  <input type="file" name="namafile">
+  <br>
+  <input type="submit" value="Upload">
+</form>
+
+</body>
+</html>
